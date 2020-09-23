@@ -1,0 +1,13 @@
+{
+	"name": "Fox Dark",
+	"author": "Foxxite",
+	"version": 1,
+
+	"resourceDir": "dist",
+	"screenshotsDir": "screenshots",
+
+	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
+	"addedFiles": ["wwwroot/css/bootstrap-dark-min.css", "wwwroot/themes", "wwwroot/themes/Night Owl.json"],
+
+	"screenShots": ["1.png", "2.png", "3.png"]
+}
