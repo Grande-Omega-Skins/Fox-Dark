@@ -50,7 +50,7 @@ code,
 }
 
 a {
-	color: #54b4ff;
+	color: #3b36b5;
 }
 
 .navbar {
@@ -109,7 +109,7 @@ a {
 }
 
 .mymain {
-	margin-top: var(--height-header);
+	margin-top: 115px;
 }
 
 .mymain__inner {
@@ -154,7 +154,7 @@ a {
 }
 
 .sidebar .nav-link {
-	color: #fff;
+	color: #444;
 	font-size: 14px;
 }
 
@@ -181,7 +181,7 @@ a {
 }
 
 .nav-item__icon.oi-circle-check:before {
-	color: #00af50;
+	color: #025e2b;
 }
 
 .nav-item__icon.oi-circle-x:before {
@@ -204,24 +204,15 @@ a {
 }
 
 .chapter .card-title {
-	color: #54b4ff;
-}
-
-.card {
-	margin-top: 1rem;
+	color: #3b36b5;
 }
 
 .chapter .card-title:hover {
 	text-decoration: underline;
 }
 
-.chapters-title {
-	padding-top: 1rem;
-}
-
 .main-content {
 	height: 100%;
-	margin-top: 1rem;
 }
 
 .main-content--scroll {
@@ -320,17 +311,7 @@ a {
 }
 
 .slide--image img {
-	width: 90%;
 	height: auto;
-}
-
-.slide .slide--markdown {
-	white-space: pre-line;
-}
-
-.slide .slide--markdown div p {
-	max-width: 125ch;
-	line-height: 1.5rem;
 }
 
 pre {
@@ -431,14 +412,14 @@ td {
 	font-size: 23px;
 }
 .myContentClassDotted {
-	background: #006d32;
+	background: rgba(170, 252, 170, 0.507);
 	border-bottom: 2px dotted #31aa4b;
 }
 .myContentClass {
-	background: #006d32;
+	background: rgba(170, 252, 170, 0.507);
 }
 .myContentEmptyClass {
-	background: #006d32;
+	background: rgba(170, 252, 170, 0.507);
 	border-left: 2px dotted #31aa4b;
 	border-bottom: 2px dotted #31aa4b;
 }
@@ -447,17 +428,15 @@ td {
 	color: black !important;
 	z-index: 5 !important;
 	position: relative;
-	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
 }
 .HiddenTestContent_no_after {
 	background: black;
 	color: black !important;
 	z-index: 5 !important;
 	position: relative;
-	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
 }
 .myBreakPointHitClass {
-	background: #828200;
+	background: rgba(250, 250, 210, 0.8);
 }
 
 ::-webkit-scrollbar {
@@ -586,10 +565,7 @@ td {
 }
 
 .custom_text_area:read-only {
-	background-color: #000;
-	color: #dcdcdc;
-	height: 12rem;
-	min-height: 2rem;
+	background-color: rgb(254, 254, 254);
 }
 
 .tippy-tooltip.red-theme .tippy-backdrop {
@@ -611,8 +587,4 @@ body {
 	font-size: 14px;
 	font-family: sans-serif;
 	font-weight: 700;
-}
-
-.monaco-editor {
-	padding-top: 5px;
 }
