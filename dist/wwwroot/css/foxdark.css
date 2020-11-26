@@ -34,7 +34,7 @@ a {
 }
 
 .slide--image img {
-	width: 90%;
+	max-width: 90%;
 	height: auto;
 }
 
